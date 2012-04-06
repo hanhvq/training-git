@@ -17,5 +17,11 @@
   </dependencies>
   <build>
     <finalName>simple-webapp</finalName>
+    <plugins>
+      <plugin>
+        <groupId>org.mortbay.jetty</groupId>
+        <artifactId>maven-jetty-plugin</artifactId>
+      </plugin>
+    </plugins>
   </build>
 </project>
